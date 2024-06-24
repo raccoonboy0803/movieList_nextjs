@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Home',
 };
 
-export const API_URL = process.env.API_URL;
+const API_URL = process.env.API_URL;
 
 async function getMovies() {
   // await new Promise((resolve) => setTimeout(resolve, 1000));
